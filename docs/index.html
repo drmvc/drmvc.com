@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DrMVC Project</title>
+    <link rel="icon" type="image/png" href="/img/logo_green_64.png"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="DrMVC Project website">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+<body>
+<div id="app"></div>
+<script>
+    window.$docsify = {
+        name: 'DrMVC Project',
+        alias: {
+            '.*?/config': 'https://raw.githubusercontent.com/drmvc/config/master/README.md',
+            '.*?/router': 'https://raw.githubusercontent.com/drmvc/router/master/README.md',
+            '.*?/framework': 'https://raw.githubusercontent.com/drmvc/framework/master/README.md',
+            '.*?/database': 'https://raw.githubusercontent.com/drmvc/database/master/README.md',
+            '.*?/password': 'https://raw.githubusercontent.com/drmvc/password/master/README.md',
+            '.*?/session': 'https://raw.githubusercontent.com/drmvc/session/master/README.md',
+            '.*?/helpers': 'https://raw.githubusercontent.com/drmvc/helpers/master/README.md',
+        },
+        loadSidebar: true,
+        maxLevel: 4,
+        subMaxLevel: 2,
+        coverpage: ['/'],
+        search: {
+            noData: {
+                '/': 'No results!'
+            },
+            paths: 'auto',
+            placeholder: {
+                '/': 'Search'
+            }
+        }
+    }
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-nginx.min.js"></script>
+</body>
+</html>
