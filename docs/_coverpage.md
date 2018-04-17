@@ -4,11 +4,12 @@
 
 > Collection of reusable PHP components
 
-* PHP >= 7.0
-* Simple and clear code
-* Any components available via packagist
-* You can combine your favorite programming practices
+* Only PHP >= 7.0
+* DrMVC is strong OOP and PSR coupled together
+* Simple and clean code (with comments)
+* All components are tested
 * Almost all popular databases is supported
 
 [GitHub](https://github.com/drmvc/)
+[Packagist](https://packagist.org/packages/drmvc/)
 [Get Started](#drmvc-project)

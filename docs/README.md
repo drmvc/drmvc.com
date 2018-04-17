@@ -16,15 +16,15 @@ understanding how everything is arranged here.
 On GitHub you can find special [demo project](https://github.com/drmvc/app).
 If you do not have composer utility, you need to read [this instruction](https://getcomposer.org/doc/00-intro.md).
 
-```bash
-# Create skeleton of project
-composer create-project drmvc/app my_project
-cd my_project
+A few steps to get a ready-to-use application:
 
-# Install dependent files
-npm install
+    composer create-project drmvc/app
+    cd app/public
+    php -S localhost:8000
 
-# Run dummy server for test period
-cd public
-php -S localhost:8000
-```
+Now you can open your web-browser and go to http://localhost:8000
+
+More details about examples:
+
+* [Skeleton applicaions](app)
+* [Demo applicaions](demo)
