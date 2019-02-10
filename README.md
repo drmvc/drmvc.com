@@ -2,4 +2,4 @@
 
 Website of DrMVC Project.
 
-https://drmvc.com/
+https://drmvc.github.io
